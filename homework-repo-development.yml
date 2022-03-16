@@ -1,9 +1,6 @@
-spring:
-  application:
-    name: homework-repo
-
 server:
   port: 0
 
-user:
-  role: ADMIN
+spring:
+  application:
+    name: homework-repo
