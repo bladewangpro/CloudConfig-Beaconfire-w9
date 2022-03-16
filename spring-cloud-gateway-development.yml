@@ -1,4 +1,6 @@
-
+server:
+  port: 0
+  
 eureka:
   client:
     serviceUrl:
@@ -16,8 +18,7 @@ spring:
           uri: lb://homework-repo
           predicates:
             - Path=/homework/**
-server:
-  port: 0
+
 
 
 
