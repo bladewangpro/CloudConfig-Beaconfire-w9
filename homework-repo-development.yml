@@ -1,9 +1,9 @@
-feign:
-  hystrix:
-    enabled: true
+spring:
+  application:
+    name: homework-repo
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+server:
+  port: 0
+
+user:
+  role: ADMIN
