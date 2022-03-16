@@ -4,3 +4,12 @@ server:
 spring:
   application:
     name: homework-repo
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+
+feign:
+  circuitbreaker:
+    enabled: true
